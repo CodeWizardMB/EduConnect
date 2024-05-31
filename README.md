@@ -1,2 +1,10 @@
-# EduConnect
- EduConnect is a transformative educational platform designed to democratize education by linking skilled volunteers with educational initiatives. As a bridge for collaboration, it unites individuals, nonprofits, governments, and enterprises to foster positive change globally.
+
+  # Educonnect
+
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  

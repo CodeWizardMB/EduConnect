@@ -1,0 +1,51 @@
+.selectorIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.to1Month {
+  flex: 1;
+  position: relative;
+}
+.row {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-xs);
+}
+.duration,
+.row,
+.row1 {
+  display: flex;
+  align-items: center;
+}
+.row1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-xs);
+}
+.duration {
+  width: 280px;
+  position: relative;
+  box-shadow: var(--light-elevation-flyout);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-h3-size);
+  color: var(--color-gray-400);
+  font-family: var(--display-h3);
+}

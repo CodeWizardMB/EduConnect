@@ -1,0 +1,134 @@
+.icon,
+.label,
+.paymentDetails {
+  position: relative;
+}
+.label {
+  align-self: stretch;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.icon {
+  width: 18px;
+  height: 17px;
+}
+.buttonIcon {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  border: 1px dashed var(--color-lightslategray);
+  box-sizing: border-box;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+  gap: var(--gap-mid);
+  font-size: var(--cta-h3-size);
+}
+.frameGroup,
+.input,
+.inputWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  flex: 1;
+  height: 83px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameGroup,
+.inputWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-6xl);
+  font-size: var(--cta-h1-size);
+}
+.label2 {
+  width: 684px;
+  position: relative;
+  font-size: var(--body-h3-size);
+  text-decoration: underline;
+  color: var(--color-lightseagreen-100);
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-lightseagreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-31xl);
+}
+.btn {
+  width: 149px;
+  position: relative;
+  height: 43px;
+  cursor: pointer;
+}
+.button1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightseagreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-31xl);
+}
+.btn1 {
+  width: 156px;
+  position: relative;
+  height: 43px;
+  cursor: pointer;
+  color: var(--white);
+}
+.btnParent,
+.frameParent,
+.paymentDetailsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btnParent {
+  flex-direction: row;
+  gap: var(--gap-16xl);
+  font-size: var(--cta-h3-size);
+  color: var(--color-lightseagreen-100);
+}
+.frameParent,
+.paymentDetailsParent {
+  flex-direction: column;
+}
+.paymentDetailsParent {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+}
+.frameParent {
+  width: 744px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--titles-h2-size);
+  color: var(--color-gray-400);
+  font-family: var(--display-h3);
+}

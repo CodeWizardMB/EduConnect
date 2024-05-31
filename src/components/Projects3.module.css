@@ -1,0 +1,34 @@
+.findProject {
+  flex: 1;
+  position: relative;
+}
+.projects,
+.row {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+}
+.row {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.projects {
+  width: 196px;
+  position: relative;
+  box-shadow: var(--light-elevation-flyout);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-h3-size);
+  color: var(--color-gray-400);
+  font-family: var(--display-h3);
+}

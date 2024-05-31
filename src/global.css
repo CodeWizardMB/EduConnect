@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=FONTSPRING+DEMO+-+Proxima+Nova:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --display-h3: "FONTSPRING DEMO - Proxima Nova";
+  --font-montserrat: Montserrat;
+  --font-open-sans: "Open Sans";
+  --font-inter: Inter;
+  --font-proxima-nova: "Proxima Nova";
+  --font-lato: Lato;
+  --font-roboto: Roboto;
+  --font-sansita: Sansita;
+  --base-medium: "SF Pro Display";
+
+  /* font sizes */
+  --cta-h2-size: 18px;
+  --cta-h1-size: 20px;
+  --titles-h2-size: 24px;
+  --display-h3-size: 40px;
+  --font-size-13xl: 32px;
+  --headings-h1-size: 38px;
+  --display-h1-size: 64px;
+  --cta-h3-size: 16px;
+  --font-size-6xl-3: 25.3px;
+  --titles-h1-size: 26px;
+  --font-size-4xl-6: 23.6px;
+  --body-h3-size: 14px;
+  --font-size-2xs: 11px;
+  --font-size-xs: 12px;
+  --font-size-mini: 15px;
+  --display-h4-size: 36px;
+  --headings-h3-size: 28px;
+
+  /* Colors */
+  --color-gray-100: #f9fbfc;
+  --gray-3: #828282;
+  --color-gray-200: #77787d;
+  --color-gray-300: #757575;
+  --typography-950: #282a37;
+  --color-gray-400: #17181a;
+  --text: #0a0d13;
+  --color-gray-500: #050708;
+  --color-gray-600: #040308;
+  --color-gray-700: rgba(4, 3, 8, 0.6);
+  --color-gray-800: rgba(4, 3, 8, 0.4);
+  --white: #fff;
+  --color-lightcyan: #d3eded;
+  --color-lightseagreen-100: #21a7a4;
+  --text1: #000;
+  --color-powderblue: rgba(144, 211, 209, 0.4);
+  --color-azure: #e0f3f2;
+  --color-teal: #008080;
+  --color-lightgray: rgba(210, 210, 210, 0.97);
+  --color-darkcyan: #24a0a0;
+  --color-whitesmoke-100: #f9fafb;
+  --typography-50: #f6f7f9;
+  --ss-grey: #f4f4f4;
+  --color-whitesmoke-200: #f1f5f7;
+  --text-2: #f3f3f3;
+  --color-whitesmoke-300: #eaedef;
+  --color-lightslategray: #809fb8;
+  --text2: #4b4b4b;
+  --gray-1: #333;
+  --color-darkslategray-100: #30313d;
+  --color-pink: #f0c3d2;
+  --color-crimson: #d80027;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-200: #d9e1e7;
+  --typography-200: #d5d8e2;
+  --typography-500: #667091;
+  --color-ghostwhite: #f1f4f9;
+  --color-red: #e2001c;
+  --empty: #32c770;
+  --gray-2: #4f4f4f;
+  --default-primary-default: #0570de;
+  --text-21: #9da3a1;
+  --color-blueviolet: #9747ff;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-2xs: 11px;
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-2xl: 21px;
+  --gap-5xs: 8px;
+  --gap-6xl: 25px;
+  --gap-16xl: 35px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-mid: 17px;
+  --gap-smi: 13px;
+  --gap-81xl: 100px;
+  --gap-3xs: 10px;
+  --gap-lg-3: 18.3px;
+  --gap-smi-2: 12.2px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-13xl: 32px;
+  --padding-15xl: 34px;
+  --padding-xl: 20px;
+  --padding-11xl: 30px;
+  --padding-xs: 12px;
+  --padding-31xl: 50px;
+  --padding-smi: 13px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-lg-3: 18.3px;
+  --padding-174xl: 193px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-5xl: 24px;
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-181xl: 200px;
+  --br-81xl: 100px;
+  --br-8xs: 5px;
+  --br-7xs: 6px;
+  --br-5xs-6: 7.6px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --default-box-shadow-default: 0px 3px 6px rgba(0, 0, 0, 0.02),
+    0px 1px 1px rgba(0, 0, 0, 0.03);
+  --light-elevation-flyout: 0px 0px 0px 1px rgba(3, 7, 18, 0.08),
+    0px 8px 16px rgba(3, 7, 18, 0.08);
+}
